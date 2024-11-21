@@ -7,6 +7,6 @@ BLOCK_NUMBER=654321
 
 BLOCK_HASH=$(bitcoin-cli getblockhash $BLOCK_NUMBER)
 
-echo "Hash do bloco $BLOCK_NUMBER: $BLOCK_HASH"
+echo "$BLOCK_HASH"
 
 
